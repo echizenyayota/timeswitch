@@ -2,7 +2,10 @@
 <html lang="ja">
 <head>
 　<meta charset="UTF-8">
-  <title>サンプル</title>
+  <title>
+    <?php wp_title( '|', true, 'right'); ?>
+    <?php bloginfo('name'); ?>
+  </title>
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/normalize.css">
