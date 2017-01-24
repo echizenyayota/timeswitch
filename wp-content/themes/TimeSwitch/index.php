@@ -8,7 +8,7 @@
   </title>
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="<?php content_url(); // wp-contentを読み取れていない　?>/css/normalize.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>"
   <?php wp_head(); ?>
