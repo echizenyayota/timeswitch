@@ -39,7 +39,7 @@
     </div>
     <div class="box3">
         <dic class="top">
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/header.jpg" alt="" class="topimg">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/header.jpg" alt="<?php bloginfo('description'); ?>" class="topimg">
             <p class="catch">TimeSwitchはデータの蓄積と</br>分析の解析サービスを提供します</p>
     </div>
     <div class="box6">
