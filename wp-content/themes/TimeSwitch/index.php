@@ -14,7 +14,7 @@
         <div class="boxA-inner">
             <div class="box1">
                 <div class="site">
-                    <h1><a href="#"><img src="img/logo-large.png" alt="TimeSwitch" width="250" height="33"></a></h1>
+                    <h1><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo-large.png" alt="TimeSwitch" width="250" height="33"></a></h1>
                 </div>
             </div>
             <div class="box2">
@@ -35,7 +35,7 @@
     </div>
     <div class="box3">
         <dic class="top">
-            <img src="img/header.jpg" alt="" class="topimg">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/header.jpg" alt="" class="topimg">
             <p class="catch">TimeSwitchはデータの蓄積と</br>分析の解析サービスを提供します</p>
     </div>
     <div class="box6">
