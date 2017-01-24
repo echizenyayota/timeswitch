@@ -5,7 +5,7 @@
   <title>サンプル</title>
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="style.css">
   <?php wp_head(); ?>
 </head>
