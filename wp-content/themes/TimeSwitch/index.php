@@ -128,7 +128,8 @@
     <div class="box5">
         <div class="box5-inner">
             <div class="copyright">
-                <p>copyright &copy; TimeSwitch</p>
+                <?php bloginfo( 'description' ); ?>
+                <p>Copyright&copy; 2017<?php if (date("Y")!=2012) echo date("-Y"); ?> All rights reserved, TimeSwitch</p>
             </div>
         </div>
     </div>
