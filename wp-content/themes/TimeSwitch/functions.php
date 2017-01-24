@@ -5,6 +5,12 @@ if (!isset($content_width)) {
   $content_width = 747;
 }
 
+// トグルボタン
+function navbtn_scripts() {
+  wp_enqueue_script('navbtn-script', get_template_directory_uri() . '/navbtn.js', array('jquery'));
+}
+add_action( 'wp_enqueue_scripts', 'navbtn_scripts');
+
 // サムネイル画像
 function mythumb( $size ) {
   global $post;
@@ -51,3 +57,5 @@ add_theme_support( 'custom-header', array(
   'height' => 300,
   'header-text' => false
 ));
+
+//

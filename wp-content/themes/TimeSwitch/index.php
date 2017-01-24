@@ -133,14 +133,6 @@
             </div>
         </div>
     </div>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script>
-        $(function() {
-            $('#menubtn').click(function() {
-                $('#menu').slideToggle();
-            });
-        });
-    </script>
     <?php wp_footer(); ?>
 </body>
 </html>
