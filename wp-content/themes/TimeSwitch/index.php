@@ -18,7 +18,7 @@
         <div class="boxA-inner">
             <div class="box1">
                 <div class="site">
-                    <h1><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo-large.png" alt="<?php bloginfo('name'); ?>" width="250" height="33"></a></h1>
+                    <h1><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo-large.png" alt="<?php bloginfo('name'); ?>" width="250" height="33"></a></h1>
                 </div>
             </div>
             <div class="box2">
@@ -27,11 +27,11 @@
                 </button>
                 <nav class="menu" id="menu">
                     <ul>
-                        <li><a href="#">トップ</a></li>
-                        <li><a href="#">沿革</a></li>
-                        <li><a href="http://wocker.dev/html5_css3_designbook/contents.html">事業紹介</a></li>
-                        <li><a href="#">採用情報</a></li>
-                        <li><a href="#">お問い合わせ</a></li>
+                        <li><a href="<?php echo esc_url(home_url()); ?>">トップ</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/history')); ?>">沿革</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/business_overview')); ?>">事業紹介</a></li>
+                        <li><a href="<?php echo esc_url(home_url('recruitment_information')); ?>">採用情報</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせ</a></li>
                     </ul>
                 </nav>
             </div>
