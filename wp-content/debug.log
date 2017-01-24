@@ -1,3 +1,6 @@
 [24-Jan-2017 06:14:36 UTC] PHP Notice:  Use of undefined constant 　 - assumed '　' in /var/www/wordpress/wp-content/themes/TimeSwitch/index.php on line 11
 [24-Jan-2017 06:15:36 UTC] PHP Notice:  Use of undefined constant 　 - assumed '　' in /var/www/wordpress/wp-content/themes/TimeSwitch/index.php on line 11
 [24-Jan-2017 06:17:36 UTC] PHP Notice:  Use of undefined constant 　 - assumed '　' in /var/www/wordpress/wp-content/themes/TimeSwitch/index.php on line 11
+[24-Jan-2017 06:45:42 UTC] PHP Parse error:  syntax error, unexpected 'get_bloginfo' (T_STRING) in /var/www/wordpress/wp-content/themes/TimeSwitch/index.php on line 11
+[24-Jan-2017 06:46:00 UTC] PHP Notice:  Use of undefined constant ‘stylesheet_directory’ - assumed '‘stylesheet_directory’' in /var/www/wordpress/wp-content/themes/TimeSwitch/index.php on line 11
+[24-Jan-2017 06:48:05 UTC] PHP Notice:  Use of undefined constant ‘template_directory’ - assumed '‘template_directory’' in /var/www/wordpress/wp-content/themes/TimeSwitch/index.php on line 11
