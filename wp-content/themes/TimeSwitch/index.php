@@ -77,22 +77,22 @@
                 <h1>お知らせ</h1>
                 <ul>
                     <li>
-                        <a href="#"><time datetime="2016-1-20">12/20</time>
+                        <a href="#"><time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>"><?php echo get_the_date(); ?></time>
                             <div class="text">1/20 データセンターのメンテナンスを行います</div>
                         </a>
                     </li>
                     <li>
-                        <a href="#"><time datetime="2016-1-21">12/21</time>
+                        <a href="#"><time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>1"><?php echo get_the_date(); ?></time>
                             <div class="text">1/21 データセンターのメンテナンスを行います</div>
                         </a>
                     </li>
                     <li>
-                        <a href="#"><time datetime="2016-1-22">12/22</time>
+                        <a href="#"><time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>"><?php echo get_the_date(); ?></time>
                             <div class="text">1/22 データセンターのメンテナンスを行います</div>
                         </a>
                     </li>
                     <li>
-                        <a href="#"><time datetime="2016-1-22">12/22</time>
+                        <a href="#"><time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>"><?php echo get_the_date(); ?></time>
                             <div class="text">1/23 データセンターのメンテナンスを行います</div>
                         </a>
                     </li>
