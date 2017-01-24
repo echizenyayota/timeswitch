@@ -56,8 +56,8 @@
             <div class="gaiyou">
                 <a href="#">
                     <i class="fa fa-bar-chart-o"></i>
-                    <h1>データの分析・解析</h1>
-                    <p>目的に応じて様々な角度からデータを分析・解析します</p>
+                    <h1>わかりやすく視覚化</h1>
+                    <p>配信情報はわかりやすく視覚化し、活用できるようにします。</p>
                 </a>
             </div>
         </div>
@@ -65,7 +65,7 @@
             <div class="gaiyou">
                 <a href="#">
                     <i class="fa fa-envelope"></i>
-                    <h1>データの分析・解析</h1>
+                    <h1>24時間サポート</h1>
                     <p>目的に応じて様々な角度からデータを分析・解析します</p>
                 </a>
             </div>
@@ -78,22 +78,22 @@
                 <ul>
                     <li>
                         <a href="#"><time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>"><?php echo get_the_date(); ?></time>
-                            <div class="text">1/20 データセンターのメンテナンスを行います</div>
+                            <div class="text">データセンターのメンテナンスを行います</div>
                         </a>
                     </li>
                     <li>
                         <a href="#"><time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>1"><?php echo get_the_date(); ?></time>
-                            <div class="text">1/21 データセンターのメンテナンスを行います</div>
+                            <div class="text">Android アプリのバージョンを1.2にアップしました</div>
                         </a>
                     </li>
                     <li>
                         <a href="#"><time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>"><?php echo get_the_date(); ?></time>
-                            <div class="text">1/22 データセンターのメンテナンスを行います</div>
+                            <div class="text">セミナー開催に伴うキャンペーンについて</div>
                         </a>
                     </li>
                     <li>
                         <a href="#"><time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>"><?php echo get_the_date(); ?></time>
-                            <div class="text">1/23 データセンターのメンテナンスを行います</div>
+                            <div class="text">グラフ数字の切替方法が分かりやすくなりました</div>
                         </a>
                     </li>
                 </ul>
