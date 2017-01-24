@@ -18,7 +18,7 @@
         <div class="boxA-inner">
             <div class="box1">
                 <div class="site">
-                    <h1><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo-large.png" alt="TimeSwitch" width="250" height="33"></a></h1>
+                    <h1><a href="#"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo-large.png" alt="<?php bloginfo('name'); ?>" width="250" height="33"></a></h1>
                 </div>
             </div>
             <div class="box2">
