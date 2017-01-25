@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-　<meta charset="UTF-8">
-  <title>サンプル</title>
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body　class="contents">
-    <div class="boxA">
-        <div class="boxA-inner">
-            <div class="box1">
-                <div class="site">
-                    <h1><a href="#"><img src="img/logo-large.png" alt="TimeSwitch" width="250" height="33"></a></h1>
-                </div>
-            </div>
-            <div class="box2">
-                <button type="button" id="menubtn">
-                    <i class="fa fa-bars"></i><span>Menu</span>
-                </button>
-                <nav class="menu" id="menu">
-                    <ul>
-                        <li><a href="#">トップ</a></li>
-                        <li><a href="#">沿革</a></li>
-                        <li><a href="#">事業紹介</a></li>
-                        <li><a href="#">採用情報</a></li>
-                        <li><a href="#">お問い合わせ</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
+<?php get_header(); ?>
     <div class="box7">
         <div class="box7-1">
             <article class="kiji">
@@ -70,20 +38,4 @@
             </aside>
         </div>
     </div>
-    <div class="box5">
-        <div class="box5-inner">
-            <div class="copyright">
-                <p>copyright &copy; TimeSwitch</p>
-            </div>
-        </div>
-    </div>
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script>
-        $(function() {
-            $('#menubtn').click(function() {
-                $('#menu').slideToggle();
-            });
-        });
-    </script>
-</body>
-</html>
+<?php get_footer(); ?>
