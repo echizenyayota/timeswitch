@@ -4,3 +4,12 @@
 [24-Jan-2017 06:45:42 UTC] PHP Parse error:  syntax error, unexpected 'get_bloginfo' (T_STRING) in /var/www/wordpress/wp-content/themes/TimeSwitch/index.php on line 11
 [24-Jan-2017 06:46:00 UTC] PHP Notice:  Use of undefined constant ‘stylesheet_directory’ - assumed '‘stylesheet_directory’' in /var/www/wordpress/wp-content/themes/TimeSwitch/index.php on line 11
 [24-Jan-2017 06:48:05 UTC] PHP Notice:  Use of undefined constant ‘template_directory’ - assumed '‘template_directory’' in /var/www/wordpress/wp-content/themes/TimeSwitch/index.php on line 11
+[25-Jan-2017 22:58:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 107
+[25-Jan-2017 22:59:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 107
+[25-Jan-2017 23:02:06 UTC] PHP Parse error:  syntax error, unexpected ';' in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 63
+[25-Jan-2017 23:02:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 108
+[25-Jan-2017 23:05:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 108
+[25-Jan-2017 23:07:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 108
+[25-Jan-2017 23:11:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 78
+[25-Jan-2017 23:12:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 71
+[25-Jan-2017 23:13:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 48

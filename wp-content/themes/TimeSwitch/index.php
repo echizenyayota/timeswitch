@@ -1,30 +1,5 @@
 <?php get_header(); ?>
-
-<body>
-    <div class="boxA">
-        <div class="boxA-inner">
-            <div class="box1">
-                <div class="site">
-                    <h1><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo-large.png" alt="<?php bloginfo('name'); ?>" width="250" height="33"></a></h1>
-                </div>
-            </div>
-            <div class="box2">
-                <button type="button" id="menubtn">
-                    <i class="fa fa-bars"></i><span>Menu</span>
-                </button>
-                <nav class="menu" id="menu">
-                    <ul>
-                        <li><a href="<?php echo esc_url(home_url()); ?>">トップ</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/history')); ?>">沿革</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/business_overview')); ?>">事業紹介</a></li>
-                        <li><a href="<?php echo esc_url(home_url('recruitment_information')); ?>">採用情報</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせ</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <div class="box3">
+  <div class="box3">
         <dic class="top">
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/header.jpg" alt="<?php bloginfo('description'); ?>" class="topimg">
             <p class="catch">TimeSwitchはデータの蓄積と</br>分析の解析サービスを提供します</p>
