@@ -40,7 +40,7 @@
                 <ul>
                     <li>
                         <a href="#"><time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>"><?php echo get_the_date(); ?></time>
-                            <div class="text">データセンターのメンテナンスを行います</div>
+                              <div class="text">データセンターのメンテナンスを行います</div>
                         </a>
                     </li>
                     <li>
