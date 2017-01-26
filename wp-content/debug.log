@@ -13,3 +13,4 @@
 [25-Jan-2017 23:11:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 78
 [25-Jan-2017 23:12:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 71
 [25-Jan-2017 23:13:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /var/www/wordpress/wp-content/themes/TimeSwitch/header.php on line 48
+[26-Jan-2017 06:09:16 UTC] PHP Notice:  sidebar.php のないテーマ の使用はバージョン 3.0.0 から<strong>非推奨</strong>になりました。代替は用意されておりません。 sidebar.php テンプレートをテーマに含めてください。 in /var/www/wordpress/wp-includes/functions.php on line 3959
